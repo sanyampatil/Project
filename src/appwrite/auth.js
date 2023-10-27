@@ -35,7 +35,7 @@ import {Client,Account,ID } from 'appwrite'
         throw error;
        }
    
-    }
+    }x``
     async getCurrentUser(){
         try{
             return await this.account,get();
