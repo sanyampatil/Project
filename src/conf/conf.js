@@ -5,8 +5,4 @@ const conf = {
     appWriteCollectionId:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID),
     appWriteBukectId:String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
 
-
-
-
-
 }
