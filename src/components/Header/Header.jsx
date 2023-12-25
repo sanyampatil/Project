@@ -56,7 +56,12 @@ function Header () {
                   </button>
                 </li>
               ) : null
-            )}git
+            )}
+            {authStatus && (
+              <li>
+                <LogoutBtn />
+              </li>
+            )}
           </ul>
         </nav>
       </Container>
