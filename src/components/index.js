@@ -7,8 +7,10 @@ import {RTE} from './RTE'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Post from './pages/Post'
-
+import PostForm from './post-form/PostForm'
 import AddPost from './pages/AddPost'
+import PostCard from './PostCard'
+   
 
 
 export{
@@ -21,7 +23,9 @@ export{
  Signup,
  Login,
  Post,
- AddPost
+ AddPost,
+ PostForm,
+ PostCard
  
 }
 
