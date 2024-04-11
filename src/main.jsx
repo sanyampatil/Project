@@ -7,18 +7,17 @@ import store from './store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 // import Home from './components/pages/Home.jsx'
-import Signup from './pages/Signup'
+import Signup from './components/Signup.jsx'
 // import Signup from './components/index.js'
 
 import { AuthLayout, Login } from './components/index.js'
- import AddPost from './pages/AddPost'
+import AddPost from './pages/AddPost'
 // import AddPost from './components/index.js'
 import Post from './pages/Post'
 // import Post from './components/pages/Post.jsx'
 
 import EditPost from './pages/EditPost.jsx'
 // import EditPost from './components/pages/EditPost.jsx'
-
 
 import AllPosts from './pages/AllPost.jsx'
 // import AllPosts from './components/pages/AllPost.jsx'
